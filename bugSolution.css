@@ -1,0 +1,11 @@
+/* bugSolution.css */
+
+#my-element {
+  background-color: red;
+  width: calc(100vw - 20px);
+  /*Ensuring proper unit handling and absence of conflicting styles*/
+  box-sizing: border-box; /*This is crucial, ensure box-sizing is properly set*/
+}
+
+/* Additional styles to address potential issues*/
+body, html{ margin: 0; padding: 0; }
